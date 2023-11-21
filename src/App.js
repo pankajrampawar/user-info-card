@@ -24,6 +24,8 @@ function App() {
   console.log(user);
 
   return (
+
+    // website has been made responsive
     <div className='flex justify-center pt-36 bg-gray-100 h-screen w-screen'>
         {user && user.results && user.results.length > 0 && (
         
