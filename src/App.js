@@ -27,7 +27,7 @@ function App() {
     <div className='flex justify-center pt-36 bg-gray-100 h-screen w-screen'>
         {user && user.results && user.results.length > 0 && (
         
-        <div className='bg-white flex gap-5 p-6 rounded-3xl shadow-xl h-fit'>
+        <div className='bg-white flex flex-col sm:flex-row gap-5 p-6 rounded-3xl shadow-xl h-fit'>
           <div>
             <img src={user.results[0].picture.large} alt='user' className='rounded-2xl h-44'/>
           </div>
